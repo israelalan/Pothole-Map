@@ -11,7 +11,7 @@ export class HelloWorldModel extends Observable {
 
     public potholeAdd() {
         enableLocationRequest();
-    var location = geolocation.getCurrentLocation({ desiredAccuracy: Accuracy.high, updateDistance: 0.1, maximumAge: 500000, timeout: 20000 }).
+        var location = geolocation.getCurrentLocation({ desiredAccuracy: Accuracy.high, updateDistance: 0.1, maximumAge: 500000, timeout: 20000 }).
         then(function (loc) {
             if (loc) {
                 console.log(loc.longitude);
