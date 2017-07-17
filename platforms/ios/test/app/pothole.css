@@ -1,0 +1,7 @@
+@import 'nativescript-theme-core/css/core.light.css';
+TextField {
+    border-width: 5;
+    border-style: solid;
+    border-color: #034793;
+}
+

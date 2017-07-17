@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Admin" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout class="p-20">
+        <Button text="Add Pothole" tap="{{ onTapPothole }}" class="btn btn-primary btn-active"/>
+        <Button text="Add Speed Breaker" tap="{{ onTapSpeedBreaker }}" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>
