@@ -3,17 +3,83 @@ Target: x86_64-apple-darwin16.3.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/mosesjeyakumar/test/platforms/ios/build/emulator/include" "-I" "/Users/mosesjeyakumar/test/platforms/ios/internal" "-I" "/Users/mosesjeyakumar/test/platforms/ios/internal/TKLiveSync/include" "-F/Users/mosesjeyakumar/test/platforms/ios/build/emulator" "-F/Users/mosesjeyakumar/test/platforms/ios/internal/" "-F/Users/mosesjeyakumar/test/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/mosesjeyakumar/test/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator/include" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal/TKLiveSync/include" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCrash/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseMessaging/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseStorage/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleSignIn/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/internal/" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1" "-D" "GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
-ignoring nonexistent directory "/Users/mosesjeyakumar/test/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
 #include "..." search starts here:
 #include <...> search starts here:
- /Users/mosesjeyakumar/test/platforms/ios/internal
- /Users/mosesjeyakumar/test/platforms/ios/internal/TKLiveSync/include
- /Users/mosesjeyakumar/test/platforms/ios/build/emulator (framework directory)
- /Users/mosesjeyakumar/test/platforms/ios/internal (framework directory)
- /Users/mosesjeyakumar/test/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal/TKLiveSync/include
+ /Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCrash/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseMessaging/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseStorage/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleSignIn/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase
  ../lib/clang/3.9.0/include
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
@@ -24,25 +90,165 @@ Target: x86_64-apple-darwin16.3.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/mosesjeyakumar/test/platforms/ios/build/emulator/include" "-I" "/Users/mosesjeyakumar/test/platforms/ios/internal" "-I" "/Users/mosesjeyakumar/test/platforms/ios/internal/TKLiveSync/include" "-F/Users/mosesjeyakumar/test/platforms/ios/build/emulator" "-F/Users/mosesjeyakumar/test/platforms/ios/internal/" "-F/Users/mosesjeyakumar/test/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/mosesjeyakumar/test/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-iquote" "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps" "-isystem" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator/include" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal" "-I" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal/TKLiveSync/include" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCrash/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseMessaging/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseStorage/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleSignIn/Frameworks" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/internal/" "-F/Users/mosesjeyakumar/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1" "-D" "GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/mosesjeyakumar/Groceries/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.3.0
-ignoring nonexistent directory "/Users/mosesjeyakumar/test/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Library/Developer/Xcode/DerivedData/Groceries-eegbnhquzpilkxagevahdihwnpsg/Build/Products/Debug-iphonesimulator/Protobuf/Protobuf.framework/Headers"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCrash"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDynamicLinks"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInvites"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseMessaging"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseRemoteConfig"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/FirebaseStorage"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Google-Mobile-Ads-SDK"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleMaps"
+ignoring nonexistent directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/GoogleSignIn"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
 #include "..." search starts here:
 #include <...> search starts here:
- /Users/mosesjeyakumar/test/platforms/ios/internal
- /Users/mosesjeyakumar/test/platforms/ios/internal/TKLiveSync/include
- /Users/mosesjeyakumar/test/platforms/ios/build/emulator (framework directory)
- /Users/mosesjeyakumar/test/platforms/ios/internal (framework directory)
- /Users/mosesjeyakumar/test/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal/TKLiveSync/include
+ /Users/mosesjeyakumar/Groceries/platforms/ios/build/emulator (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCrash/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseMessaging/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseRemoteConfig/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseStorage/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleSignIn/Frameworks (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/internal (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public
+ /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Headers/Public/Firebase
  ../lib/clang/3.9.0/include
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
 End of search list.
-In file included from umbrella.h:729:
+In file included from umbrella.h:627:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h:3:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h:1:
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:61:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, readwrite) FIRAnalyticsConfiguration *analyticsConfiguration;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:61:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:676:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources/Firebase.h:25:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FirebaseDynamicLinks.h:1:
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:142:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) NSURL *fallbackURL;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:142:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:161:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) NSURL *iPadFallbackURL;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:161:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:242:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) NSURL *fallbackURL;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:242:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:286:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) NSURL *imageURL;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:286:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:367:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkGoogleAnalyticsParameters *analyticsParameters;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:367:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:372:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkSocialMetaTagParameters *socialMetaTagParameters;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:372:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:377:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkIOSParameters *iOSParameters;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:377:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:382:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable)
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:382:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:388:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkAndroidParameters *androidParameters;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:388:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:393:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkNavigationInfoParameters *navigationInfoParameters;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:393:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:398:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) FIRDynamicLinkComponentsOptions *options;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:398:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:407:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic) NSURL *link;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FDLURLComponents.h:407:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:676:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/Firebase/Core/Sources/Firebase.h:33:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FirebaseInvites.h:1:
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvites.h:119:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic) FIRInvitesTargetApplication *targetApp;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvites.h:119:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:700:
+In file included from /Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h:11:
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h:388:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) GMSCoordinateBounds *cameraTargetBounds;
+^
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h:388:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:863:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
 #error using os/log.h requires Xcode 8 or later
  ^
-1 error generated.
+/Users/mosesjeyakumar/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCoreDiagnostics.framework/Modules/module.modulemap:3:10: error: inferred submodules require a module with an umbrella
+  module * { export *}
+         ^
+30 warnings and 2 errors generated.

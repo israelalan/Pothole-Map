@@ -1,0 +1,66 @@
+{
+  "_from": "nativescript-googlemaps",
+  "_id": "nativescript-googlemaps@3.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-ud6otI8po0mTOUYpir6O84D1P1U=",
+  "_location": "/nativescript-googlemaps",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-googlemaps",
+    "name": "nativescript-googlemaps",
+    "escapedName": "nativescript-googlemaps",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-googlemaps/-/nativescript-googlemaps-3.0.1.tgz",
+  "_shasum": "b9dea8b48f29a349933946298abe8ef380f53f55",
+  "_spec": "nativescript-googlemaps",
+  "_where": "/Users/mosesjeyakumar/Groceries",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/nativescript-googlemaps/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Provides API for showing location on a google maps.",
+  "devDependencies": {
+    "tns-core-modules": "^3.0.0 || ^3.0.0-rc.1",
+    "tns-platform-declarations": "^3.0.0 || ^3.0.0-rc.1",
+    "typescript": "^2.2.2"
+  },
+  "homepage": "https://github.com/NativeScript/nativescript-googlemaps#readme",
+  "keywords": [
+    "NativeScript",
+    "location",
+    "geolocation",
+    "googlemaps",
+    "maps",
+    "google"
+  ],
+  "license": "Apache-2.0",
+  "main": "nativescript-googlemaps",
+  "name": "nativescript-googlemaps",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0 || ^3.0.0-rc.1 || >=3.0.0-2017"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-googlemaps.git"
+  },
+  "version": "3.0.1"
+}
