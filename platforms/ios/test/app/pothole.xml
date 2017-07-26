@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Pothole" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout class="p-20">
+    	<TextField autocorrect="false" hint="Enter depth in mm" id="Depth" />
+        <Button text="Add" tap="{{ potholeAdd }}" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>
