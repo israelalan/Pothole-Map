@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var pothole_view_model_1 = require("./pothole-view-model");
+var observableModule = require("data/observable");
+var source = new observableModule.Observable();
 function navigatingTo(args) {
     var page = args.object;
     page.bindingContext = new pothole_view_model_1.HelloWorldModel();

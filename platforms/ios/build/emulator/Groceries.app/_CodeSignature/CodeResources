@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		uUPuZ6eIkkr8EbEtnTPLzG3TJaQ=
+		tzTAqDIMMY1gCRoAnNpu6qkv+2k=
 		</data>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
@@ -3083,7 +3083,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		YESSoxZkxyS+Jj+JytrOs9Cki4Q=
+		2wbQ1YuSigyZPByFzWBid564Z6M=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -3151,7 +3151,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		KnDDsUHwltdCIlp4C7BoZQ9VGzo=
+		Y162OM4sPYakV6kLXh1O1ONfmYU=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -3159,7 +3159,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		IdFuxE9L0CHz/MFfM5Rpdhh6rZE=
+		vtPtjhWDxZ/6Ap2KZ7Xr2omuY6I=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -3211,7 +3211,7 @@
 		</data>
 		<key>app/pothole-view-model.js</key>
 		<data>
-		HgFY79ZLOyq5oJKLogPlv6iO4gs=
+		y+24e1z9+CndgGjhm94+n3L9FFM=
 		</data>
 		<key>app/pothole.css</key>
 		<data>
@@ -7141,11 +7141,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uUPuZ6eIkkr8EbEtnTPLzG3TJaQ=
+			tzTAqDIMMY1gCRoAnNpu6qkv+2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			hWwNxpBBrnzqSpWMpx+Ee+Mulp+S2X8q7OT06MiRmtA=
+			ofDlK6MwI5cd3NN6zOOMDyQctTUF7DHbMr4wCU5FNqA=
 			</data>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
@@ -12821,11 +12821,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KnDDsUHwltdCIlp4C7BoZQ9VGzo=
+			Y162OM4sPYakV6kLXh1O1ONfmYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			jyxghxdqeeAmlp5BTWMxpVJzngfZXVTvTwveahDW60o=
+			HjMbA+eV67e9YexZSSSVlt25A3zY2BU9IZXj6PejmKs=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -12843,11 +12843,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IdFuxE9L0CHz/MFfM5Rpdhh6rZE=
+			vtPtjhWDxZ/6Ap2KZ7Xr2omuY6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			smIrijhdYQWApMWSvxAy5Vv7P4e742aHdwYq5fFiFXg=
+			W+LGSmHfmZZRMOeM1sx2/rBfEN+EOxes7X7VdHje0lk=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -12975,11 +12975,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HgFY79ZLOyq5oJKLogPlv6iO4gs=
+			y+24e1z9+CndgGjhm94+n3L9FFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MbJZrKEHH2fSRXDRpsGK+nwf6N82f1oLdFT9bA4WNgU=
+			9LMcCHbBd7m0eofgc0TFSw6p3fYG/3rWRJktKsmul8E=
 			</data>
 		</dict>
 		<key>app/pothole.css</key>

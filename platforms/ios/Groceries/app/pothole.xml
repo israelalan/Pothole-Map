@@ -4,7 +4,7 @@
         </ActionBar>
     </Page.actionBar>
     <StackLayout class="p-20">
-    	<TextField autocorrect="false" hint="Enter depth in mm" id="Depth" />
+    	<TextField autocorrect="false" hint="Enter depth in mm" text="{{ depth }}" id="depth" keyboardType="number" />
         <Button text="Add" tap="{{ potholeAdd }}" class="btn btn-primary btn-active"/>
     </StackLayout>
 </Page>

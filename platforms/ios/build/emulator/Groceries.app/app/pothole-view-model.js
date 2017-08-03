@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var enums_1 = require("ui/enums");
+
+var fetchModule = require("fetch");
+
 var geolocation = require("nativescript-geolocation");
 var nativescript_geolocation_1 = require("nativescript-geolocation");
 var HelloWorldModel = (function () {
@@ -16,6 +19,15 @@ var HelloWorldModel = (function () {
         }, function (e) {
             console.log("Error: " + e.message);
         });
+        fetchModule.fetch("http://localhost:5000/coordinates", {
+        method: "POST",
+        body: JSON.stringify({"longitude":12})
+    })
+    .then(function(response) {
+        alert({title: "POST Response", message: JSON.stringify(response)});
+    }, function(error) {
+        console.log(JSON.stringify(error));
+    })
     };
     return HelloWorldModel;
 }());

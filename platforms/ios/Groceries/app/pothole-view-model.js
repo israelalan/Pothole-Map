@@ -1,21 +1,52 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var enums_1 = require("ui/enums");
+
+var observableModule = require("data/observable");
+var source = new observableModule.Observable();
+
+var fetchModule = require("fetch");
+var http = require("http");
+
 var geolocation = require("nativescript-geolocation");
 var nativescript_geolocation_1 = require("nativescript-geolocation");
 var HelloWorldModel = (function () {
+    
     function HelloWorldModel() {
+        
     }
     HelloWorldModel.prototype.potholeAdd = function () {
         nativescript_geolocation_1.enableLocationRequest();
+        var Depth = this.depth;
+        console.log("depth = ",Depth);
         var location = geolocation.getCurrentLocation({ desiredAccuracy: enums_1.Accuracy.high, updateDistance: 0.1, maximumAge: 500000, timeout: 20000 }).
             then(function (loc) {
             if (loc) {
                 console.log("Success ", loc.latitude);
+                http.request({
+        url: "http://localhost:5000/coordinates",
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        content: JSON.stringify({"latitude":loc.latitude,"longitude":loc.longitude,"depth":Depth})
+    }).then(function(result) {
+        console.log(JSON.stringify(result));
+    }, function(error) {
+        console.error(JSON.stringify(error));
+    });
             }
         }, function (e) {
             console.log("Error: " + e.message);
         });
+        /**fetchModule.fetch("http://localhost:5000/coordinates", {
+        method: "POST",
+        body: JSON.stringify({"longitude":12})
+    })
+    .then(function(response) {
+        console.log("Success POST request");
+    }, function(error) {
+        console.log(JSON.stringify(error));
+    })**/
+    
     };
     return HelloWorldModel;
 }());

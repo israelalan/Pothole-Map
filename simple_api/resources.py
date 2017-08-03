@@ -9,11 +9,15 @@ from flask.ext.restful import marshal_with
 
 todo_fields = {
     'id': fields.Integer,
-    'longitude': fields.Integer,
+    'latitude': fields.Arbitrary,
+    'longitude': fields.Arbitrary,
+    'depth': fields.Integer,
 }
 
 parser = reqparse.RequestParser()
-parser.add_argument('longitude', type=int)
+parser.add_argument('latitude', type=float)
+parser.add_argument('longitude', type=float)
+parser.add_argument('depth', type=int)
 
 class TodoResource(Resource):
     @marshal_with(todo_fields)
@@ -35,7 +39,9 @@ class TodoResource(Resource):
     def put(self, id):
         parsed_args = parser.parse_args()
         todo = session.query(Todo).filter(Todo.id == id).first()
+        todo.latitude = parsed_args['latitude']
         todo.longitude = parsed_args['longitude']
+        todo.depth = parsed_args['depth']
         session.add(todo)
         session.commit()
         return todo, 201
@@ -50,7 +56,7 @@ class TodoListResource(Resource):
     @marshal_with(todo_fields)
     def post(self):
         parsed_args = parser.parse_args()
-        todo = Todo(longitude=parsed_args['longitude'])
+        todo = Todo(latitude=parsed_args['latitude'],longitude=parsed_args['longitude'],depth=parsed_args['depth'])
         session.add(todo)
         session.commit()
         return todo, 201
